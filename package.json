@@ -1,0 +1,26 @@
+{
+  "name": "chatbot-kawan-sanggau",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Chatbot WhatsApp berbasis RAG untuk dokumen statistik",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "ingest": "node src/ingest.js",
+    "ask": "node src/ask.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.1.38",
+    "@langchain/google-genai": "^2.3.2",
+    "@langchain/qdrant": "^1.0.3",
+    "@langchain/textsplitters": "^1.0.2",
+    "@qdrant/js-client-rest": "^1.15.0",
+    "dotenv": "^16.6.1",
+    "js-tiktoken": "^1.0.21",
+    "pdf-parse": "^2.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.1"
+  }
+}

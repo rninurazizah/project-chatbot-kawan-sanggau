@@ -1,0 +1,31 @@
+# Dependensi
+node_modules/
+
+# Rahasia dan sesi lokal
+.env
+wa_session/
+data_store/
+
+# Log
+*.log
+
+# Cache Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-1/
+.pytest_cache/
+
+# Artefak ekstraksi yang bisa dibuat ulang
+extracted/
+extracted_paddle/*/
+pdf_inspection/
+debug_table_pages/
+parser_test/
+pdf_preview/
+audit/
+table/
+
+# Simpan hanya PDF sumber di knowledge/, bukan salinan tanpa ekstensi
+knowledge/*
+!knowledge/*.pdf

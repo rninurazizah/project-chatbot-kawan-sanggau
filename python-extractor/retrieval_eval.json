@@ -1,0 +1,647 @@
+[
+  {
+    "question": "Berapa luas daerah Kecamatan Sekayam dan desa mana yang paling luas?",
+    "target": "Sekayam",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.7101,
+        "kec": "Sekayam",
+        "type": "narrative",
+        "page": 33,
+        "title": "Keadaan Geografis"
+      },
+      {
+        "score": 0.6816,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 36,
+        "title": "Tabel 1.1.1 Luas Daerah Menurut Desa/Kelurahan di Kecam"
+      },
+      {
+        "score": 0.5583,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 39,
+        "title": "Tabel 1.1.4 Batas-Batas Wilayah Desa di Kecamatan Sekay"
+      },
+      {
+        "score": 0.5469,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 39,
+        "title": "Tabel 1.1.4 Batas-Batas Wilayah Desa di Kecamatan Sekay"
+      },
+      {
+        "score": 0.5465,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 72,
+        "title": "Tabel 3.1.5 Jumlah Penduduk menurut Kewarganegaraan dan"
+      }
+    ]
+  },
+  {
+    "question": "Berapa jumlah penduduk Kecamatan Kapuas menurut desa?",
+    "target": "Kapuas",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6618,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 51,
+        "title": "Tabel 2.1.1 Jumlah Rukun Warga (RW), Rukun Tetangga (RT"
+      },
+      {
+        "score": 0.6521,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 68,
+        "title": "Tabel 3.1.1 Penduduk, Distribusi Persentase Penduduk, K"
+      },
+      {
+        "score": 0.6443,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 77,
+        "title": "Tabel 3.1.5 Jumlah Penduduk menurut Kewarganegaraan dan"
+      },
+      {
+        "score": 0.6409,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 89,
+        "title": "Tabel 3.1.10 Jumlah Penduduk yang Pindah dan Tercatat s"
+      },
+      {
+        "score": 0.6404,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 87,
+        "title": "Tabel 3.1.9 Jumlah Penduduk yang Datang dan Tercatat se"
+      }
+    ]
+  },
+  {
+    "question": "Siapa saja nama camat yang pernah menjabat di Kecamatan Sekayam?",
+    "target": "Sekayam",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6196,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 53,
+        "title": "Tabel 2.2.4 Nama-Nama Camat Sekayam yang Pernah/Masih M"
+      },
+      {
+        "score": 0.6123,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 53,
+        "title": "Tabel 2.2.4 Nama-Nama Camat Sekayam yang Pernah/Masih M"
+      },
+      {
+        "score": 0.5779,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 50,
+        "title": "Tabel 2.2.1 Nama-Nama Pejabat Struktural di Kecamatan S"
+      },
+      {
+        "score": 0.5065,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 55,
+        "title": "Tabel 2.2.5 Nama-Nama Pejabat Struktural Instansi Verti"
+      },
+      {
+        "score": 0.4872,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 56,
+        "title": "Tabel 2.2.6 Nama-Nama Kepala Desa/Lurah di Kecamatan Se"
+      }
+    ]
+  },
+  {
+    "question": "Bagaimana batas wilayah utara dan selatan Kecamatan Toba?",
+    "target": "Toba",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6563,
+        "kec": "Toba",
+        "type": "table",
+        "page": 38,
+        "title": "Tabel 1.1.3 Batas-Batas Wilayah Kecamatan Toba menurut "
+      },
+      {
+        "score": 0.5817,
+        "kec": "Toba",
+        "type": "table",
+        "page": 39,
+        "title": "Tabel 1.1.4 Batas-Batas Wilayah Desa di Kecamatan Toba"
+      },
+      {
+        "score": 0.5089,
+        "kec": "Toba",
+        "type": "narrative",
+        "page": 33,
+        "title": "Keadaan Geografis"
+      },
+      {
+        "score": 0.4673,
+        "kec": "Toba",
+        "type": "narrative",
+        "page": 33,
+        "title": "Keadaan Geografis"
+      },
+      {
+        "score": 0.447,
+        "kec": "Toba",
+        "type": "narrative",
+        "page": 61,
+        "title": "Penduduk"
+      }
+    ]
+  },
+  {
+    "question": "Berapa jarak desa ke ibukota kecamatan di Kecamatan Balai?",
+    "target": "Balai",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.7342,
+        "kec": "Balai",
+        "type": "table",
+        "page": 31,
+        "title": "Tabel 1.1.2 Jarak ke Ibukota Kecamatan dan Ibukota Kabu"
+      },
+      {
+        "score": 0.6913,
+        "kec": "Balai",
+        "type": "table",
+        "page": 31,
+        "title": "Tabel 1.1.2 Jarak ke Ibukota Kecamatan dan Ibukota Kabu"
+      },
+      {
+        "score": 0.6265,
+        "kec": "Balai",
+        "type": "table",
+        "page": 35,
+        "title": "Tabel 1.1.5 Jarak Jalan Darat Antara Dengan Kantor Desa"
+      },
+      {
+        "score": 0.6259,
+        "kec": "Balai",
+        "type": "narrative",
+        "page": 31,
+        "title": "1.1 GEOGRAFI"
+      },
+      {
+        "score": 0.5888,
+        "kec": "Balai",
+        "type": "table",
+        "page": 35,
+        "title": "Tabel 1.1.5 Jarak Jalan Darat Antara Dengan Kantor Desa"
+      }
+    ]
+  },
+  {
+    "question": "Berapa jumlah sekolah dasar negeri di Kecamatan Noyan tahun 2025?",
+    "target": "Noyan",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6426,
+        "kec": "Noyan",
+        "type": "table",
+        "page": 80,
+        "title": "Tabel 4.1.2 Jumlah Sekolah Menurut Tingkat Pendidikan d"
+      },
+      {
+        "score": 0.6387,
+        "kec": "Noyan",
+        "type": "table",
+        "page": 79,
+        "title": "Tabel 4.1.1 Banyaknya Desa1/Kelurahan yang Memiliki Fas"
+      },
+      {
+        "score": 0.6093,
+        "kec": "Noyan",
+        "type": "table",
+        "page": 81,
+        "title": "Tabel 4.1.3 Jumlah Kepala Sekolah dan Pendidik Menurut "
+      },
+      {
+        "score": 0.6061,
+        "kec": "Noyan",
+        "type": "table",
+        "page": 80,
+        "title": "Tabel 4.1.2 Jumlah Sekolah Menurut Tingkat Pendidikan d"
+      },
+      {
+        "score": 0.6024,
+        "kec": "Noyan",
+        "type": "table",
+        "page": 82,
+        "title": "Tabel 4.1.4 Jumlah Murid Menurut Tingkat Pendidikan di "
+      }
+    ]
+  },
+  {
+    "question": "Berapa banyak fasilitas kesehatan di Kecamatan Mukok?",
+    "target": "Mukok",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6686,
+        "kec": "Mukok",
+        "type": "narrative",
+        "page": 73,
+        "title": "ULASAN"
+      },
+      {
+        "score": 0.643,
+        "kec": "Mukok",
+        "type": "table",
+        "page": 81,
+        "title": "Tabel 4.2.3 Banyaknya Sarana/Prasarana Kesehatan di Kec"
+      },
+      {
+        "score": 0.617,
+        "kec": "Mukok",
+        "type": "table",
+        "page": 79,
+        "title": "Tabel 4.2.1 Banyaknya Desa1/Kelurahan yang Memiliki Sar"
+      },
+      {
+        "score": 0.5923,
+        "kec": "Mukok",
+        "type": "table",
+        "page": 82,
+        "title": "Tabel 4.2.4 Banyaknya Sarana/Prasarana Kesehatan di Kec"
+      },
+      {
+        "score": 0.5755,
+        "kec": "Mukok",
+        "type": "table",
+        "page": 143,
+        "title": "Tabel 6.3.1 Banyaknya Desa1/Kelurahan Menurut Keberadaa"
+      }
+    ]
+  },
+  {
+    "question": "Berapa produksi karet di Kecamatan Jangkang tahun 2025?",
+    "target": "Jangkang",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6286,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 132,
+        "title": "Tabel 5.1.9 Luas Areal dan Produksi Tanaman Perkebunan "
+      },
+      {
+        "score": 0.6008,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 121,
+        "title": "Tabel 5.1.2 Produksi Tanaman Sayuran dan Buah-buahan Se"
+      },
+      {
+        "score": 0.5989,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 124,
+        "title": "Tabel 5.1.4 Produksi Tanaman Biofarmaka Menurut Jenis T"
+      },
+      {
+        "score": 0.5896,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 129,
+        "title": "Tabel 5.1.7 Produksi Buah-Buahan dan Sayuran Tahunan me"
+      },
+      {
+        "score": 0.589,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 121,
+        "title": "Tabel 5.1.2 Produksi Tanaman Sayuran dan Buah-buahan Se"
+      }
+    ]
+  },
+  {
+    "question": "Berapa luas panen padi di Kecamatan Meliau?",
+    "target": "Meliau",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.5931,
+        "kec": "Meliau",
+        "type": "table",
+        "page": 133,
+        "title": "Tabel 5.1.8 Luas Wilayah Kecamatan Meliau menurut Pengg"
+      },
+      {
+        "score": 0.5522,
+        "kec": "Meliau",
+        "type": "table",
+        "page": 32,
+        "title": "Tabel 1.1.1 Luas Daerah Menurut Desa/Kelurahan di Kecam"
+      },
+      {
+        "score": 0.5426,
+        "kec": "Meliau",
+        "type": "narrative",
+        "page": 29,
+        "title": "Keadaan Geografis"
+      },
+      {
+        "score": 0.5325,
+        "kec": "Meliau",
+        "type": "narrative",
+        "page": 119,
+        "title": "ULASAN"
+      },
+      {
+        "score": 0.5235,
+        "kec": "Meliau",
+        "type": "narrative",
+        "page": 119,
+        "title": "ULASAN"
+      }
+    ]
+  },
+  {
+    "question": "Apa saja komoditas perkebunan di Kecamatan Tayan Hulu?",
+    "target": "Tayan Hulu",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.6231,
+        "kec": "Tayan Hulu",
+        "type": "narrative",
+        "page": 73,
+        "title": "ULASAN"
+      },
+      {
+        "score": 0.5623,
+        "kec": "Tayan Hulu",
+        "type": "table",
+        "page": 143,
+        "title": "Tabel 6.3.1 Banyaknya Desa1/Kelurahan Menurut Keberadaa"
+      },
+      {
+        "score": 0.561,
+        "kec": "Tayan Hulu",
+        "type": "table",
+        "page": 142,
+        "title": "Tabel 6.2.1 Banyaknya Desa1/Kelurahan Menurut Prasarana"
+      },
+      {
+        "score": 0.5562,
+        "kec": "Tayan Hulu",
+        "type": "narrative",
+        "page": 151,
+        "title": "Keuangan"
+      },
+      {
+        "score": 0.555,
+        "kec": "Tayan Hulu",
+        "type": "table",
+        "page": 81,
+        "title": "Tabel 4.2.3 Banyaknya Sarana/Prasarana Kesehatan di Kec"
+      }
+    ]
+  },
+  {
+    "question": "Berapa jumlah penduduk laki-laki dan perempuan di Kecamatan Entikong?",
+    "target": "Entikong",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.7054,
+        "kec": "Entikong",
+        "type": "table",
+        "page": 58,
+        "title": "Tabel 3.1.1 Penduduk, Distribusi Persentase Penduduk, K"
+      },
+      {
+        "score": 0.6981,
+        "kec": "Entikong",
+        "type": "narrative",
+        "page": 55,
+        "title": "Penduduk"
+      },
+      {
+        "score": 0.6939,
+        "kec": "Entikong",
+        "type": "table",
+        "page": 68,
+        "title": "Tabel 3.1.9 Jumlah Penduduk yang Datang dan Tercatat se"
+      },
+      {
+        "score": 0.6929,
+        "kec": "Entikong",
+        "type": "table",
+        "page": 69,
+        "title": "Tabel 3.1.10 Jumlah Penduduk yang Pindah dan Tercatat s"
+      },
+      {
+        "score": 0.6884,
+        "kec": "Entikong",
+        "type": "table",
+        "page": 66,
+        "title": "Tabel 3.1.7 Jumlah Penduduk yang lahir menurut Jenis Ke"
+      }
+    ]
+  },
+  {
+    "question": "Berapa jumlah sarana transportasi darat di Kecamatan Balai?",
+    "target": "Balai",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.7131,
+        "kec": "Balai",
+        "type": "table",
+        "page": 142,
+        "title": "Tabel 6.2.1 Banyaknya Desa 1 /Kelurahan menurut Prasara"
+      },
+      {
+        "score": 0.6398,
+        "kec": "Balai",
+        "type": "table",
+        "page": 140,
+        "title": "Tabel 6.1.2 Prasarana dan Sarana Transportasi Antardesa"
+      },
+      {
+        "score": 0.636,
+        "kec": "Balai",
+        "type": "narrative",
+        "page": 137,
+        "title": "Transportasi"
+      },
+      {
+        "score": 0.6341,
+        "kec": "Balai",
+        "type": "table",
+        "page": 140,
+        "title": "Tabel 6.1.2 Prasarana dan Sarana Transportasi Antardesa"
+      },
+      {
+        "score": 0.6243,
+        "kec": "Balai",
+        "type": "table",
+        "page": 140,
+        "title": "Tabel 6.1.2 Prasarana dan Sarana Transportasi Antardesa"
+      }
+    ]
+  },
+  {
+    "question": "Apa definisi luas panen dalam glosarium Kecamatan Kapuas?",
+    "target": "Kapuas",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.456,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 30,
+        "title": "Tabel 1.1.1 Luas Daerah Menurut Desa/Kelurahan di Kecam"
+      },
+      {
+        "score": 0.4527,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 30,
+        "title": "Tabel 1.1.1 Luas Daerah Menurut Desa/Kelurahan di Kecam"
+      },
+      {
+        "score": 0.4422,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 30,
+        "title": "Tabel 1.1.1 Luas Daerah Menurut Desa/Kelurahan di Kecam"
+      },
+      {
+        "score": 0.4318,
+        "kec": "Kapuas",
+        "type": "table",
+        "page": 174,
+        "title": "Tabel 5.1.8 Luas Wilayah Kecamatan Kapuas menurut Pengg"
+      },
+      {
+        "score": 0.408,
+        "kec": "Kapuas",
+        "type": "narrative",
+        "page": 27,
+        "title": "Keadaan Geografis"
+      }
+    ]
+  },
+  {
+    "question": "Berapa jumlah rumah tangga pengguna air PDAM di Kecamatan Sekayam?",
+    "target": "Sekayam",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.5171,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 108,
+        "title": "Tabel 4.3.3 Banyaknya Pelanggan, Air yang Disalurkan da"
+      },
+      {
+        "score": 0.482,
+        "kec": "Sekayam",
+        "type": "narrative",
+        "page": 125,
+        "title": "ULASAN"
+      },
+      {
+        "score": 0.4548,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 91,
+        "title": "Tabel 4.2.4 Banyaknya Sarana/Prasarana Kesehatan di Kec"
+      },
+      {
+        "score": 0.4525,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 143,
+        "title": "Tabel 5.1.11 Banyaknya Benih Ikan Bantuan di Kecamatan "
+      },
+      {
+        "score": 0.448,
+        "kec": "Sekayam",
+        "type": "table",
+        "page": 142,
+        "title": "Tabel 5.1.10 Banyaknya Potensi Perikanan di Kecamatan S"
+      }
+    ]
+  },
+  {
+    "question": "Berapa banyak desa di Kecamatan Jangkang dan apa saja namanya?",
+    "target": "Jangkang",
+    "hit1": true,
+    "hit3": true,
+    "top": [
+      {
+        "score": 0.5993,
+        "kec": "Jangkang",
+        "type": "narrative",
+        "page": 41,
+        "title": "Aparat Desa"
+      },
+      {
+        "score": 0.5867,
+        "kec": "Jangkang",
+        "type": "narrative",
+        "page": 27,
+        "title": "Keadaan Geografis"
+      },
+      {
+        "score": 0.5863,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 43,
+        "title": "Tabel 2.1.1 Jumlah Rukun Warga (RW), Rukun Tetangga (RT"
+      },
+      {
+        "score": 0.5828,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 105,
+        "title": "Lanjutan Tabel 4.4.4"
+      },
+      {
+        "score": 0.5617,
+        "kec": "Jangkang",
+        "type": "table",
+        "page": 33,
+        "title": "Tabel 1.1.4 Batas-Batas Wilayah Desa/Kelurahan di Kecam"
+      }
+    ]
+  }
+]
