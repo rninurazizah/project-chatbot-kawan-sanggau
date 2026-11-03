@@ -1,6 +1,6 @@
 
 import fs from 'node:fs/promises';
-import { answerQuestion } from './rag.js';
+import { answerQuestion } from './python-rag.js';
 
 const QUESTIONS_FILE = './questions.json';
 

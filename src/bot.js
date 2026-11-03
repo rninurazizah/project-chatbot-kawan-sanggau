@@ -1,7 +1,6 @@
 import pkg from 'whatsapp-web.js';
 import qrcode from 'qrcode-terminal';
-import { answerQuestion } from './rag.js';
-import { runGeminiAi } from './gemini-ai.js';
+import { answerQuestion, runGeneralAnswer } from './python-rag.js';
 
 const { Client, LocalAuth } = pkg;
 
@@ -95,9 +94,10 @@ async function handleMessage(msg) {
     }
 
     // Jika pertanyaan meminta data statistik tetapi dokumen tidak mendukungnya,
-    // jangan menebak dengan Gemini umum. Untuk pertanyaan umum, gunakan runGeminiAi.
+    // jangan menebak dengan model umum. Untuk pertanyaan umum, gunakan
+    // generation NVIDIA melalui API Python.
     if (!STATISTICAL_PATTERN.test(question)) {
-      await msg.reply(await runGeminiAi(question));
+      await msg.reply(await runGeneralAnswer(question));
       return;
     }
 

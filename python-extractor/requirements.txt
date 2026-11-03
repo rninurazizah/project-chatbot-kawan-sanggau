@@ -1,0 +1,8 @@
+# API Python (retrieval + generation)
+# Versi yang diuji: Python 3.11+ di venv proyek
+fastapi>=0.115
+uvicorn[standard]>=0.30
+openai>=1.40
+qdrant-client>=1.9
+requests>=2.31
+python-dotenv>=1.0

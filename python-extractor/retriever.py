@@ -24,7 +24,7 @@ QDRANT_URL = os.getenv(
 
 COLLECTION = os.getenv(
     "NVIDIA_QDRANT_COLLECTION",
-    "kcda_knowledge_nvidia_v3"
+    "kcda_knowledge_nvidia_v4"
 )
 
 MODEL = os.getenv(
@@ -49,6 +49,44 @@ DEFINITION_RE = re.compile(
     r"maksud|istilah|glosarium|penjelasan)\b",
     re.IGNORECASE,
 )
+
+# ==================================================
+# DETEKSI KECAMATAN
+# ==================================================
+
+KECAMATAN_LIST = [
+    "Balai",
+    "Beduai",
+    "Bonti",
+    "Entikong",
+    "Jangkang",
+    "Kapuas",
+    "Kembayan",
+    "Meliau",
+    "Mukok",
+    "Noyan",
+    "Parindu",
+    "Sekayam",
+    "Tayan Hilir",
+    "Tayan Hulu",
+    "Toba",
+]
+
+
+def extract_kecamatan(question: str):
+    question = question or ""
+
+    for kecamatan in sorted(
+        KECAMATAN_LIST,
+        key=len,
+        reverse=True
+    ):
+        pattern = rf"(?<!\w){re.escape(kecamatan)}(?!\w)"
+
+        if re.search(pattern, question, re.IGNORECASE):
+            return kecamatan
+
+    return None
 
 
 def is_definition_question(question: str) -> bool:
@@ -139,17 +177,33 @@ def retrieve(question, top_k=5, score_threshold=None, content_type=None):
 
     query_vector = generate_query_embedding(question)
 
-    query_filter = None
+    # Deteksi kecamatan dari pertanyaan
+    kecamatan = extract_kecamatan(question)
+
+    # Gabungkan filter kecamatan dan jenis konten
+    conditions = []
+
+    if kecamatan:
+        conditions.append(
+            models.FieldCondition(
+                key="kecamatan",
+                match=models.MatchValue(value=kecamatan)
+            )
+        )
 
     if content_type:
-        query_filter = models.Filter(
-            must=[
-                models.FieldCondition(
-                    key="type",
-                    match=models.MatchValue(value=content_type)
-                )
-            ]
+        conditions.append(
+            models.FieldCondition(
+                key="type",
+                match=models.MatchValue(value=content_type)
+            )
         )
+
+    query_filter = (
+        models.Filter(must=conditions)
+        if conditions
+        else None
+    )
 
     result = qdrant.query_points(
         collection_name=COLLECTION,
@@ -172,7 +226,6 @@ def retrieve(question, top_k=5, score_threshold=None, content_type=None):
         for point in result.points
         if point.score >= threshold
     ]
-
 
 # ==================================================
 # MENAMPILKAN HASIL
